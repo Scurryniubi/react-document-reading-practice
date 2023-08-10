@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useImmer } from "use-immer";
 import Background from "./assets/Background";
-import Box from "./react官方文档/添加交互/6-3-3使用 Immer 更新对象 .jsx";
+import Box from "./react官方文档/2 添加交互/6-3-3使用 Immer 更新对象 .jsx";
 
 const initialPosition = {
   x: 0,
@@ -14,7 +14,7 @@ export default function Canvas() {
     position: initialPosition,
   });
 
-  function handleMove( dx, dy) {
+  function handleMove(dx, dy) {
     // shape.position.x += dx;
     // shape.position.y += dy;
     setShape((draft) => {

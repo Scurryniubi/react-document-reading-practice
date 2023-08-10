@@ -13,7 +13,10 @@
 // import DemoA from "./react官方文档/添加交互/6-3-1修复错误的 state 更新代码";
 // import DemoA from "./react官方文档/添加交互/6-3-2发现并修复 mutation.jsx";
 // import DemoA from "./react官方文档/添加交互/7-1更新state中的数组-替换数组中的元素";
-import DemoA from "./react官方文档/添加交互/7-2更新state中的数组-向数组中插入元素";
+// import DemoA from "./react官方文档/2 添加交互/7-2更新state中的数组-向数组中插入元素";
+// import DemoA from "./react官方文档/3 状态管理/1-1 用state响应输入";
+// import DemoA from "./react官方文档/3 状态管理/1-2-2个人信息编辑器 .jsx";
+import  DemoA  from "./react官方文档/3 状态管理/3-1在组件间共享状态";
 
 function App() {
   return (

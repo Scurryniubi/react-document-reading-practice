@@ -1,10 +1,10 @@
 // import { getFinalState } from "./processQueue.js";
-import { getFinalState } from "./react官方文档/添加交互/5-3自己实现状态队列";
+import { getFinalState } from "./react官方文档/2 添加交互/5-3自己实现状态队列";
 
 function increment(n) {
   return n + 1;
 }
-increment.toString = () => "n => n+1";// 重写了toString方法
+increment.toString = () => "n => n+1"; // 重写了toString方法
 
 export default function App2() {
   return (
